@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.wfree_talipay_war_1.0PU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:app/talipay</jta-data-source>
+    <class>com.wfree.talipay.entities.TpUtilisateurfonctionnalite</class>
+    <class>com.wfree.talipay.entities.TpModule</class>
+    <class>com.wfree.talipay.entities.TpCompte</class>
+    <class>com.wfree.talipay.entities.TpFonction</class>
+    <class>com.wfree.talipay.entities.TpSystemefinancier</class>
+    <class>com.wfree.talipay.entities.TpAdminfonctionnalite</class>
+    <class>com.wfree.talipay.entities.TpTypetransaction</class>
+    <class>com.wfree.talipay.entities.TpAdministrateur</class>
+    <class>com.wfree.talipay.entities.TpParametrews</class>
+    <class>com.wfree.talipay.entities.TpUtilisateur</class>
+    <class>com.wfree.talipay.entities.TpFonctionnalite</class>
+    <class>com.wfree.talipay.entities.TpCartevirtuelle</class>
+    <class>com.wfree.talipay.entities.TpFonctionfonctionnalite</class>
+    <class>com.wfree.talipay.entities.TpComptesysfinancier</class>
+    <class>com.wfree.talipay.entities.TpProfil</class>
+    <class>com.wfree.talipay.entities.TpTransaction</class>
+    <class>com.wfree.talipay.entities.TpTarif</class>
+    <class>com.wfree.talipay.entities.TpSms</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
